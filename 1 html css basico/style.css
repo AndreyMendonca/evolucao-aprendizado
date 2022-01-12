@@ -53,3 +53,37 @@ nav {
     text-align: center;
     margin-bottom: 0px;
 }
+
+.txt-ajuste{
+    margin-top: 2px;
+}
+
+.conteudo-post{
+    margin: 4px 20px 20px 20px;
+}
+
+/*TABELAS*/
+
+td, tr{
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: #eee;
+}
+
+thead th, tbody td{
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ccc;
+}
+
+table{
+    width: 100%;
+    margin-bottom : .5em;
+    margin-top: .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
