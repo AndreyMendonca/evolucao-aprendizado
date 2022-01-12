@@ -1,25 +1,55 @@
-
-.img-inicio{
-    height: 100px;
-    width: 100px;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.conteudo{
-    background: #a0a0a0;
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3;
+}
+a: hover{
+    opacity: 0.7;
+}
+
+.name-pag{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;;
+}
+
+nav {
+    display: flex;  /*colocar logo e lista do lado */ 
+    justify-content: space-around;  /* espaço ao redor seja metada deles */ 
+    align-items: center;  /* sempre no centro*/ 
+    font-family: system-ui;  /* */ 
+    background: #23232e;  /* rocho escuto*/ 
+    height: 8vh;  /* unidade que se adapta a altura da janela do usuario */ 
+}
+
+.nav-list{
+    list-style: none; /* remove as bolinhas do ul*/ 
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.imgs{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.post{
     border: 3px solid black;
-    margin-right: 50%;
-    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
 }
 
-.perfil{
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-.txt-ajuste{
-    margin-right: 50%;
-}
 .txt-center{
     text-align: center;
+    margin-bottom: 0px;
 }
